@@ -15,8 +15,8 @@ class Waiter
 
 #Object relationships
 
-  def
-  end 
+  def new_meal
+  end
 
 
 
