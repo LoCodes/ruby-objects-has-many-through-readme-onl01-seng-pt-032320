@@ -1,3 +1,9 @@
+# Waiter
+#    #new
+#      initializes with a name and years of experience
+#    .all
+#      is class method that returns the contents of @@all
+
 class Waiter
   attr_accessor :name, :yrs_experience
 
