@@ -14,6 +14,8 @@ class Waiter
   end
 
 #Object relationships
+# #new_meal
+#   initializes a meal using the current Waiter instance, a provided Customer instance and a total and tip
 
 def new_meal(customer, total, tip=0)
   Meal.new(self, customer, total, tip)
