@@ -13,4 +13,10 @@ class Waiter
     @@all
   end 
 
+  def new_meal 
+    Meal.all.select do |meal|
+      meal.customer == self 
+    end 
+  end 
+
 end
