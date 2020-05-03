@@ -13,7 +13,11 @@ class Waiter
     @@all
   end
 
-  def meals 
+
+  # #meals
+  #  returns an Array of Meal instances associated with this waiter
+
+  def meals
     Meal.all.select do |meal|
       meal.waiter == self
     end
