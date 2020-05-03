@@ -16,7 +16,7 @@ class Waiter
 #Object relationships
 
 def new_meal(customer, total, tip=0)
-  Meal.new(customer, self, total, tip)
+  Meal.new(self, customer, total, tip)
 end
 
 
