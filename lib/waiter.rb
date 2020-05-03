@@ -15,6 +15,9 @@ class Waiter
 
 #Object relationships
 
+  def
+  end 
+
 
 
   # #meals
