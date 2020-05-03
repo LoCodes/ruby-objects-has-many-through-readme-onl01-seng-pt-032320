@@ -13,6 +13,9 @@ class Waiter
     @@all
   end
 
+#Object relationships
+
+
 
   # #meals
   #  returns an Array of Meal instances associated with this waiter
